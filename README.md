@@ -36,18 +36,18 @@ This project is used by the following companies:
 
 ## Appendix
 
-src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>: This line includes the jQuery library from a CDN (Content Delivery Network). jQuery is a fast, small, and feature-rich JavaScript library that simplifies HTML document traversal, event handling, and animation.
+src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>: here we  include the jQuery library from a CDN (Content Delivery Network). jQuery is a fast, small, and feature-rich JavaScript library that simplifies HTML document traversal, event handling, and animation.
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>: This line includes the jQuery Validation Plugin from a CDN. This plugin makes it easy to validate form fields before submitting the form.
-
-
-if ($("#formAjax").length > 0) {: This line checks if an element with the ID formAjax exists in the DOM. If it does, the code inside the block will execute.
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>: include the jQuery Validation Plugin from a CDN. This plugin makes it easy to validate form fields before submitting the form.
 
 
-$("#formAjax").validate({: This line initializes the jQuery Validation Plugin on the form with the ID formAjax.
+if ($("#formAjax").length > 0) {: checks if an element with the ID formAjax exists in the DOM. If it does, the code inside the block will execute.
 
 
-rules: {: This section defines the validation rules for the form fields.
+$("#formAjax").validate({:  initializes the jQuery Validation Plugin on the form with the ID formAjax.
+
+
+rules: {:  defines the validation rules for the form fields.
 
 
 name: { required: true, maxlength: 50 }: The name field is required and its maximum length is 50 characters.
@@ -58,19 +58,19 @@ email: { required: true, maxlength: 50, email: true }: The email field is requir
 message: { required: true, maxlength: 300 }: The message field is required and its maximum length is 300 characters.
 
 
-messages: {: This section defines custom error messages for the form fields.
+messages: {: defines custom error messages for the form fields.
 
 
 submitHandler: function(form) {: This function is called when the form is valid and ready to be submitted.
 
 
-$.ajaxSetup({ headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') } });: This line sets up the AJAX request to include a CSRF token in the request header for security purposes.
+$.ajaxSetup({ headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') } });: sets up the AJAX request to include a CSRF token in the request header for security purposes.
 
 
-$('#submit').html('Please Wait...');: This line changes the text of the submit button to "Please Wait..." to indicate that the form is being processed.
+$('#submit').html('Please Wait...');: changes the text of the submit button to "Please Wait..." to indicate that the form is being processed.
 
 
-$("#submit").attr("disabled", true);: This line disables the submit button to prevent multiple submissions.
+$("#submit").attr("disabled", true);:disables the submit button to prevent multiple submissions.
 
 
 $.ajax({: This line initiates an AJAX request.
@@ -80,11 +80,11 @@ url: "{{url('save')}}",: This specifies the URL to which the AJAX request is sen
 type: "POST",: This specifies that the AJAX request is a POST request.
 
 
-data: $('#formAjax').serialize(),: This serializes the form data and sends it as part of the AJAX request.
+data: $('#formAjax').serialize(),: serializes the form data and sends it as part of the AJAX request.
 
 
-success: function(response) {: This function is called if the AJAX request is successful:).
+success: function(response) {: function is called if the AJAX request is successful:).
 
 
-error: function(response) {: This function is called if the AJAX request fails:(.
+error: function(response) {:  function is called if the AJAX request fails:(.
 
