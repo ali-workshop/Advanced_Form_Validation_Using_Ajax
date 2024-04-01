@@ -1,66 +1,90 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+#Client_Side_Form_Validation_Using_Ajax
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Client-side form validation using Ajax allows for real-time validation of user input without reloading the entire webpage, providing a seamless user experience. By leveraging Ajax, validation requests are sent asynchronously to the server, enabling immediate feedback to users on their form entries. This approach enhances interactivity and helps prevent unnecessary server requests, optimizing performance.
+## Authors
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- [@aliali](https://github.com/ali-workshop)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## My Feedback
+form validation is essinetial to learn  until get fimiliar with all best practices
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🚀 About Me
+I'm ML engineer and entry-level Laravel dev.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
+## Next step 
+use more best practice ways 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+[focal]()
+
+
+## Used By
+
+This project is used by the following companies:
+
+- Focal agency
+
+
+
+![Logo](data:image/jpeg;base64,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)
+
+
+## Appendix
+
+src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>: This line includes the jQuery library from a CDN (Content Delivery Network). jQuery is a fast, small, and feature-rich JavaScript library that simplifies HTML document traversal, event handling, and animation.
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>: This line includes the jQuery Validation Plugin from a CDN. This plugin makes it easy to validate form fields before submitting the form.
+
+
+if ($("#formAjax").length > 0) {: This line checks if an element with the ID formAjax exists in the DOM. If it does, the code inside the block will execute.
+
+
+$("#formAjax").validate({: This line initializes the jQuery Validation Plugin on the form with the ID formAjax.
+
+
+rules: {: This section defines the validation rules for the form fields.
+
+
+name: { required: true, maxlength: 50 }: The name field is required and its maximum length is 50 characters.
+
+email: { required: true, maxlength: 50, email: true }: The email field is required, its maximum length is 50 characters, and it must be a valid email address.
+
+
+message: { required: true, maxlength: 300 }: The message field is required and its maximum length is 300 characters.
+
+
+messages: {: This section defines custom error messages for the form fields.
+
+
+submitHandler: function(form) {: This function is called when the form is valid and ready to be submitted.
+
+
+$.ajaxSetup({ headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') } });: This line sets up the AJAX request to include a CSRF token in the request header for security purposes.
+
+
+$('#submit').html('Please Wait...');: This line changes the text of the submit button to "Please Wait..." to indicate that the form is being processed.
+
+
+$("#submit").attr("disabled", true);: This line disables the submit button to prevent multiple submissions.
+
+
+$.ajax({: This line initiates an AJAX request.
+url: "{{url('save')}}",: This specifies the URL to which the AJAX request is sent.
+
+
+type: "POST",: This specifies that the AJAX request is a POST request.
+
+
+data: $('#formAjax').serialize(),: This serializes the form data and sends it as part of the AJAX request.
+
+
+success: function(response) {: This function is called if the AJAX request is successful:).
+
+
+error: function(response) {: This function is called if the AJAX request fails:(.
+
